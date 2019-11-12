@@ -1,0 +1,5 @@
+(menu-bar-mode 0)
+(global-linum-mode 1)
+(setq linum-format "%d ")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme 'monokai t)

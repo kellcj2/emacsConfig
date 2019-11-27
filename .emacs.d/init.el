@@ -13,6 +13,7 @@
 (setq indent-line-function 'insert-tab)
 
 (add-to-list 'auto-mode-alist '("\\.l\\'" . c++-mode))
+(add-to-list 'auto-mode-alist '("\\.yy\\'" . c++-mode))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

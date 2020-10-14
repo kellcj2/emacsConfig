@@ -10,7 +10,10 @@
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 (setq js-indent-level 2)
-(setq indent-line-function 'insert-tab)
+;;(setq indent-line-function 'insert-tab)
+(add-hook 'java-mode-hook (lambda ()
+                            (setq c-basic-offset 2)))
+
 
 (add-to-list 'auto-mode-alist '("\\.l\\'" . c++-mode))
 (add-to-list 'auto-mode-alist '("\\.yy\\'" . c++-mode))
